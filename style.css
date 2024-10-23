@@ -1,0 +1,855 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-container{
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px 10px;
+    width: 300px;
+
+}
+
+
+#search-box {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    background-color:transparent;
+    margin-left: 20px;
+}
+
+.nav-links{
+    display: flexbox;
+    align-items: center;
+    list-style: none;
+    margin-left: 900px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+.nineimg{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    
+    gap: 20px;
+    padding-bottom: 20px;
+   
+   
+}
+
+.nav-links2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-links2 ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+    border-bottom: #ebdfdf 1px solid;
+    border-top: #ebdfdf 1px solid;
+    padding: 10px;
+    
+    
+}
+
+.nav-links2 ul li {
+    margin-bottom: 10px;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+.nav-links2 a:hover {
+    color: #888;
+    transition: color 0.2s ease-in-out;
+}
+
+.hero-welcome {
+    background-color: #ebdfdf; /* Light gray background */
+    padding: 50px 20px; /* Adds padding to the section */
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    text-align: center; /* Centers the text */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin: 50px auto; /* Adds spacing around the section and centers it horizontally */
+    max-width: 900px; /* Sets the maximum width of the section */
+}
+
+.hero-text {
+    max-width: 600px; /* Limits the width of the text content */
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: x-small;
+    margin-bottom: 20px;
+}
+
+.hero-text a{
+    text-decoration: none;
+}
+
+.lnd-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.ldn-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.lnd-section {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+/* Style for each product card */
+.ldn-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.ldn-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.ldn-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.ldn-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.ldn-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.ldn-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+/* GBGR Section */
+
+.gbgr-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.gbgr-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.gbgr-section {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+/* Style for each product card */
+.gbgr-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.gbgr-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.gbgr-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.gbgr-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.gbgr-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.gbgr-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+/* Kusbi Section */
+
+.ksubi-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.ksubi-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.ksubi-section {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+/* Style for each product card */
+.ksubi-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.ksubi-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.ksubi-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.ksubi-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.ksubi-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.ksubi-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.video1{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.video2{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+}
+
+/* 13 STUDIOS COLLECTION */
+.studios-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.studios-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.studios-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 300px;
+    
+}
+
+/* Style for each product card */
+.studios-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.studios-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.studios-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.studios-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.studios-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.studios-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+/* 7TH HEAVEN COLLECTION */
+.heaven-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.heaven-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.heaven-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 300px;
+    
+}
+
+/* Style for each product card */
+.heaven-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.heaven-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.heaven-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.heaven-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.heaven-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.heaven-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.view-tops{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*Bottoms Section */
+.bottoms-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.bottoms-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.bottoms-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 300px;
+    
+}
+
+/* Style for each product card */
+.bottoms-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.bottoms-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.bottoms-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.bottoms-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.bottoms-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.bottoms-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.view-bottoms{
+    top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+
+    
+}
+
+/*Accessories Section*/
+.accessories-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.accessories-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.accessories-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 300px;
+    
+}
+
+/* Style for each product card */
+.accessories-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.accessories-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.accessories-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.accessories-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.accessories-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.acessories-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.view-accessories{
+    top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+
+    
+}
+
+/* Music Section */
+.music-section h1{
+    text-align: center;
+    font-size: larger;
+    display: inline-flex;
+    border-bottom: #000000 solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+   
+    margin-bottom: 30px;
+    
+}
+
+.music-products {
+    display: flex;
+    justify-content: center; /* Centers the product items */
+    gap: 30px; /* Space between the products */
+    flex-wrap: wrap; /* Allows the products to wrap on smaller screens */
+}
+
+.music-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 300px;
+    
+}
+
+/* Style for each product card */
+.music-product {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.music-products img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Hover effect */
+.music-products:hover {
+    transform: scale(1.05);
+}
+
+/* Product title */
+.music-products h2 {
+    font-size: 1.0rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.music-products p {
+    font-size: 1.0rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.music-products img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s;
+    
+}
+
+.hero-container{
+    background-color: #ebdfdf; /* Light gray background */
+    padding: 50px 20px; /* Adds padding to the section */
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Aligns elements vertically */
+    text-align: left; /* Align text to the left */
+    border-radius: 10px; /* Adds rounded corners */
+    margin: 50px auto; /* Adds spacing around the section and centers it horizontally */
+    max-width: 900px; /* Sets the maximum width*/ 
+}
+
+
+.vip-email-section h1{
+    border-bottom: #000000 solid 1px;
+}
+
+.email-input button{
+    background-color: #ff2a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.email-input input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Space between the links and icons */
+    align-items: center; /* Vertically center the content */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: smaller;
+   
+}
+
+.footer-content a {
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.footer-content li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer-links {
+    flex: 0 1 auto; /* Links stay on the left */
+    display: flex;
+    justify-content: flex-start; /* Align links to the left */
+    gap: 20px;
+}
+
+.footer-social-icons {
+    flex: 1; /* Takes up remaining space to center the icons */
+    display: flex;
+    justify-content: right; /* Centers the icons horizontally */
+    align-items: right; /* Centers icons vertically */
+    gap: 10px; /* Space between icons */
+    font-size: x-large;
+    margin-left: 300px;
+}
+
+.footer-email-signup{
+    flex: 0 0 auto; /* Email signup stays on the right */
+    justify-content: flex-end; /* Aligns the email signup to the right */
+    align-items: center; /* Centers the email signup vertically */
+    margin-left: 350px;
+}
+
+.footer-email-signup button{
+    background-color: #ff2a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-email-signup input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.footer-end{
+    margin-top: 50px;
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #ebdfdf;
+    font-size: x-large;
+}
